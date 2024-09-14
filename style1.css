@@ -1,0 +1,172 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+    position: fixed;
+    top: 0%;
+    z-index: 2;
+}
+.myntra{
+    width: 62px;
+}
+.logo{
+    margin-left: 2%;
+}
+.action-bar{
+    margin-right: 2%;
+}
+.contain{
+    min-width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.contain a{
+    text-decoration: none;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 27px 0;
+    border-bottom: 3px solid #ffffff;
+    
+}
+.contain a:hover{
+    border-bottom: 3px solid #ee5f73;
+}
+.contain a sup{
+    text-align: left;
+    color: #ff3f6c;
+    font-weight: 600;
+}
+.searchbox{
+    min-width: 400px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    background: #f5f5f6;
+    padding: 10px;
+    border-radius: 4px 0 0 4px;
+
+}
+.input{
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    background: #f5f5f6;
+    color: #696e79;
+    border-radius: 0 4px 4px 0;
+}
+.input:active{
+    border: none;
+}
+.action-bar{
+display: flex;
+min-width: 200px;
+justify-content: space-between;
+}
+.action_container{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px 0;
+border-bottom: 3px solid #ffffff;
+font-weight: 600;
+}
+.action-bar .action_container:hover{
+    border-bottom: 3px solid #ee5f73;
+}
+.sale{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 40px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+#Main_banner{
+background-image: url(https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2024/9/12/43bd65e5-6662-47a2-88f1-7956319398161726161829288-1920x504_Unisex.jpg);
+width: 100%;
+height: 346px;
+background-size:cover;
+margin: 110px 0 30px 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.ll{
+    width: 100%;
+}
+.Main_text{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 40px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+.catogory_item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.catogory_product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.photo{
+    width: 250px;
+}
+.footer{
+display: flex;
+justify-content: space-evenly;
+}
+
+footer .footer_column{
+    padding: 30px 0px 40px 0px;
+    background: #FAFBFC;
+}
+
+.footer_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_column h3 {
+    color: #282c3f;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.footer_column a {
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.copyright {
+    color: #94969f;
+    text-align: center;
+    font-size: larger;
+    padding: 20px;
+}
